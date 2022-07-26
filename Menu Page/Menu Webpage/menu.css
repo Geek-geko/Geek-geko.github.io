@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*
+{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	
+}
+
+body
+{
+	
+	background-color: #f3f3f3;
+	font-family: 'Poppins', sans-serif;
+	color: #343333;
+}
+
+div.heading
+{
+	text-align: center;
+
+}
+
+div.heading span
+{
+	color: #f3c13a;
+	font-weight: 500;
+	font-size: 15px;
+
+	
+}
+
+
+div.heading h3
+{
+	font-size: 30px;
+	font-weight: 500;
+}
+
+section
+{
+	padding: 5rem 10%;
+}
+
+
+
+div.container
+{
+
+	width: 100%;
+
+
+}
+
+div.row-card
+{
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+
+
+}
+
+div.card
+{
+	display: flex;
+	max-width: 300px;
+	flex: 1 1 1 auto;
+	margin: 10px;
+	flex-wrap: wrap;
+	flex-direction: column;
+	background: #fff;
+	border:  1px solid #ccc;
+	transition: 0.3s;
+	align-self: normal;
+	border-radius: 18px 18px 0 0;
+	flex-shrink: 2;
+
+}
+
+div.card-image
+{
+	margin-bottom: 15px;
+	height: 200px;
+	width: auto;
+	margin-bottom: 15px;
+	background-size: cover;
+	border-radius: 18px 18px 0 0;
+	background-size: cover;
+}
+
+div.car-1
+{
+	background-image: url("./images/appetizers.png");
+}
+
+div.car-2
+{
+	background-image: url("./images/Meals.png");
+}
+
+div.car-3
+{
+	background-image: url("./images/beverages.png");
+}
+
+div.car-4
+{
+	background-image: url("./images/desserts.png");
+}
+
+
+div.card p
+{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+div.card-header
+{
+	text-align:center;
+	padding: 50px 10px;
+	
+
+}
+
+
+div.card-body
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: auto;
+	padding: 30px 20px;
+	text-align: left;
+	font-size: 14px;
+	padding-bottom: 40px;
+}
+
+div.card-body1
+{
+	padding: 30px 20px;
+	text-align: left;
+	font-size: 14px;
+
+}
+
+
+a.btn-menu-items
+{
+	display: inline-block;
+	background-color: #cd001a;
+	margin-top: auto;
+	color: #f3f3f3;
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 3px;
+	font-weight: 500;
+	text-decoration: none;
+	-webkit-border-radius: 5px;
+	
+
+
+}
+
+
+.btn-menu-items a:hover
+{
+	opacity: 0.2;
+	background: darkorange;
+	transition: 0.2s;
+}
+
+.card:hover
+{
+	transform: scale(1.05);
+	box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+div.card h4
+{
+	font-size: 1.3rem;
+}
+
+
+
+
+
+
+/*responsive queries*/
+
+@media screen and (max-width: 10000px)
+{
+	div.card
+	{
+		width: 40%;
+
+	}
+}
+
+@media screen and (max-width: 760px)
+{
+	div.container
+	{
+		width: 100%;
+
+	}
+
+	div.card-image
+	{
+		padding: 20px;
+		font-size: 14px; 
+	}
+
+	div.card
+	{
+		width: 80%;
+	}
+}
+
+
+
+
+
+
+
+
+
